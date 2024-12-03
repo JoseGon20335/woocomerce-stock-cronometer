@@ -72,11 +72,11 @@
 
 2. **Forzar Ejecución**
    - Desde el plugin WP Control, ubica el evento `wc_update_stock_event` y selecciona "Ejecutar ahora" para forzar la tarea cron.  
-   *(Referencia: Imagen 1)*
+   ![Imagen del resultado del cron](https://github.com/JoseGon20335/woocomerce-stock-cronometer/blob/main/iamgen1.png)
 
 3. **Verificar Resultados**
    - Revisa los niveles de inventario actualizados en el panel de administración de WooCommerce.  
-   *(Referencia: Imagen 2)*
+   ![Imagen del resultado del cron](https://github.com/JoseGon20335/woocomerce-stock-cronometer/blob/main/iamgen2.png)
 
 4. **Pruebas Adicionales**
    - Cambia entre `$basic_auth = true` o `false` para probar la autenticación básica o mediante claves API.
